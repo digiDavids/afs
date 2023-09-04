@@ -1,4 +1,4 @@
-baseURL: https://abilenefencestaining.pages.dev/
+baseURL: https://abfencestain.netlify.app/
 # Disable taxonomy pages (disables categories and tags folders)
 disableKinds:
 - taxonomy
