@@ -1,0 +1,72 @@
+<footer class="site-footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 bg-dark text-white">
+        <div class="site-footer-logo"><a href="{{ .Site.BaseURL }}"><img src="{{ "img/logo-footer.png" | absURL }}" alt="logo-footer"></a></div>
+      </div>
+      {{ with .Site.Params}}
+      <div class="col-lg-3 col-md-6">
+        <div class="site-footer-widget">
+          <h5 class="site-footer-widget-title">{{ .name }}</h5>
+          <p class="site-footer-widget-description">
+            {{ .address | safeHTML }}
+            <br>
+            <a href="tel:{{ .phone }}">{{ .phone }}</a>
+            <br>
+            <a href="mailto:{{ .email }}">{{ .email }}</a>
+          </p>
+        </div>
+      </div>
+      {{ end }}
+      {{ with .Site.Params }}
+      <div class="col-lg-2 col-md-6">
+        <div class="site-footer-widget">
+          <h5 class="site-footer-widget-title">{{ .SiteMap }}</h5>
+          <ul class="site-footer-widget-links">
+            {{ range .link }}
+            <li><a href="{{ .url | absURL }}">{{ .name }}</a></li>
+            {{ end }}
+          </ul>
+        </div>
+      </div>
+      {{ end }}
+      {{ with .Site.Params }}
+      <div class="col-lg-2 col-md-6">
+        <div class="site-footer-widget">
+          <h5 class="site-footer-widget-title">{{ .socialtitle }}</h5>
+          <ul class="site-footer-widget-links">
+            {{ range .social }}
+              <li><a href="{{ .url }}">{{ .name }}</a></li>
+            {{ end }}
+          </ul>
+        </div>
+      </div>
+      {{ end }}
+      {{ with .Site.Params }}
+      <div class="col-lg-3 col-md-6">
+        <div class="site-footer-widget">
+          <h5 class="site-footer-widget-title">{{ .titleverse }}</h5>
+          <p class="site-footer-widget-description">
+            {{ .verse }}
+          </p>
+        </div>
+      </div>
+      {{ end }}
+      <div class="col-lg-2 col-12">
+        <a href="#top" class="site-footer-widget-top">
+          <img src="{{ "/img/to-top.png" | absURL }}" alt="back-to-top"><br>
+          <p>
+            Rise to 
+            <br>
+            the Top
+          </p>
+        </a>
+      </div>
+      <div class="col-12">
+        <div class="site-footer-copyright">
+          <p>© Copyright {{ dateFormat "2006" now }} - All Rights Reserved by <a href="https://www.artisanscreativedesigns.com/" target="_blank">Artisans Creative Designs</a> </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>

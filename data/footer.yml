@@ -1,0 +1,32 @@
+
+    # Footer Contact Info
+footer.contactInfo:
+        title: "Contact Info"
+        address: "Abilene, TX, USA <br>and surrounding areas"
+        phone: "+13256605923"
+        email: "info@abilenefencestaining.com"
+    # Footer Sitemap
+footer.sitemap:
+  - title: "Sitemap"
+    footer.sitemap.link:
+    name: "About Company"
+    url: "about"
+footer.sitemap.link:
+  - name: "Our Work"
+    url: "gallery" 
+footer.sitemap.link:
+  - name: "Contact"
+    url: "contact"
+      # Footer Social Media
+footer.social:
+  - title: "Social Media"
+footer.social.link:
+  - name: "Facebook"
+    url: "#"
+footer.social.link:
+  - name: "Google"
+    url: "#"
+      # Footer Service
+footer.service:
+  - title    : "- Colossians 3:23 ESV"
+    description : "Whatever you do, work heartily, as for the Lord and not for men"

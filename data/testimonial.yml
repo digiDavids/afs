@@ -1,0 +1,21 @@
+enable  : true
+title   : "WHAT PEOPLE SAY"
+subtitle: "Customer opinions about our services."
+testimonial_item :
+  - thumb : "img/testimonial/user-thumb-one.jpg"
+    name  : "JASON ZANE BREECH"
+    company_position: "AFS Customer"
+    quote : > 
+          "You can not beat the price, quality of work, customer service and timely communication. I HIGHLY recommend. We will be using AFS for years to come!"             
+
+  - thumb : "img/testimonial/user-thumb-two.jpg"
+    name  : "KIM VARGAS"
+    company_position: "AFS Customer"
+    quote : > 
+           "We needed our front fence stained before placing our house on the market. The job done by Abilene Fence Staining, really gave our house the curb appeal necessary to make our house stand out. Thank you for the great work!." 
+
+  - thumb : "img/testimonial/user-thumb-three.jpg"
+    name  : "MANDY JOST"
+    company_position: "AFS Customer"
+    quote : > 
+            "They did a great job on my fence. And so fast! I sent them a message on Friday and by Tuesday the job was done. And at a lower price quote than the other guys. Thank y'all, it looks beautiful." 

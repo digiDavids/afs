@@ -1,0 +1,10 @@
+enable  : true
+title   : We are the Team that makes the difference!
+members  :
+  - image       : img/team/team-member-one.jpg
+    name        : JOSH F.
+    designation : Owner Operator
+
+  - image       : img/team/team-member-two.jpg
+    name        : MAT T.
+    designation : Contractor

@@ -1,0 +1,58 @@
+baseURL: https://abilenefencestaining.pages.dev/
+# Disable taxonomy pages (disables categories and tags folders)
+disableKinds:
+- taxonomy
+- taxonomyTerm
+# for xml output
+languageCode: "en-us"
+# for website
+defaultContentLanguage: "en-us"
+languages:
+  en-us:
+    weight: 1
+title: Abilene Fence Staining
+# alternate copyright company text
+copyright: Artisans Creative Designs
+# controls number of pages displayed on list pages
+paginate: 5
+# controls the summary length on list pages
+summaryLength: 7
+# menu links via config file
+menu:
+  main:
+  - name: About AFS
+    url: /about/
+    weight: 90
+    params:
+      blank: true
+  - name: Contact
+    url: /contact/
+    weight: 100
+    params:
+      blank: true
+
+# Footer Contact Info
+params:
+  name: Contact Info
+  address: "Abilene, TX, USA <br>and surrounding areas"
+  phone: "+13256605923"
+  email: "info@abilenefencestaining.com"
+  sitemap: SiteMap
+  link: 
+    - name: "Home"
+      url: "/"
+    - name: "Our Work"
+      url: "gallery"
+    - name: "About Company"
+      url: "about"
+    
+    - name: "Contact"
+      url: "contact"
+  socialtitle: "Social Media"
+  social:
+    - name: "Facebook"
+      url: "https://www.facebook.com/abilenefencestaining"
+    - name: "Google"
+      url: "https://g.page/r/CYbTGGjyEhQ9EBA"
+  titleverse: "-- Colossians 3:23 ESV"  
+  verse: "Whatever you do, work heartily, as for the Lord and not for men - Colossians 3:23 ESV"
